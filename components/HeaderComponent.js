@@ -1,10 +1,12 @@
 import Link from "next/link";
 import classes from '../styles/header.module.css'
 
-export function MainLayout({ children }) {
+export function HeaderComponent({ children }) {
     return (
         <>
             <header className={classes.header}>
+
+
                 <nav className={classes.nav}>
                     <Link href={'/posts'}><a>Home</a></Link>
                     <Link href={'/posts'}><a>About</a></Link>
@@ -13,10 +15,15 @@ export function MainLayout({ children }) {
                     <Link href={'/posts'}><a>for Sale</a></Link>
                 </nav>
 
+                <div className={classes.searchContainer}>
+                    <div>
+                        <input className={classes.searchInput} placeholder={"Search"}/>
+
+                    </div>
+                </div>
+
+
             </header>
-            <main>
-                {children}
-            </main>
 
             <style jsx>
                 {`

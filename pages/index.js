@@ -1,16 +1,15 @@
-import Link from 'next/link'
 import Head from 'next/head'
-import {MainLayout} from "../components/MainLayout"
+import {HeaderComponent} from "../components/HeaderComponent"
 
 export default function Index() {
   return (
      <> 
      <Head>
-      <title>Next app</title>
+      <title>Next app - Trees Store</title>
      </Head>
-     <MainLayout>
+     <HeaderComponent>
 
-     </MainLayout>
+     </HeaderComponent>
     </>
   )
 }
