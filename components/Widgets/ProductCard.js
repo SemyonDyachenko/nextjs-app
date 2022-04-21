@@ -7,6 +7,7 @@ export function ProductCard({ id }) {
             <div className={classes.productCard}>
                 <div>
                     <img src={}/>
+                    <div></div>
                 </div>
             </div>
 
