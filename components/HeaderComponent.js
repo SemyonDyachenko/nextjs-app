@@ -1,17 +1,17 @@
 import Link from "next/link";
 import classes from '../styles/header.module.css'
 
-export function HeaderComponent({ children }) {
+export function HeaderComponent() {
     return (
         <>
             <header className={classes.header}>
 
 
                 <nav className={classes.nav}>
-                    <Link href={'/posts'}><a>Home</a></Link>
-                    <Link href={'/posts'}><a>About</a></Link>
+                    <Link href={'/'}><a>Home</a></Link>
+                    <Link href={'/about'}><a>About</a></Link>
                     <Link href={'/posts'}><a>Posts</a></Link>
-                    <Link href={'/posts'}><a>Products</a></Link>
+                    <Link href={'/products'}><a>Products</a></Link>
                     <Link href={'/posts'}><a>for Sale</a></Link>
                 </nav>
 
