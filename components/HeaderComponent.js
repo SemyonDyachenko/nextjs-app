@@ -1,7 +1,7 @@
 import Link from "next/link";
 import classes from '../styles/header.module.css'
 
-export function HeaderComponent() {
+const  HeaderComponent = () => {
     return (
         <>
             <header className={classes.header}>
@@ -39,3 +39,5 @@ export function HeaderComponent() {
         </>
     )
 }
+
+export default HeaderComponent

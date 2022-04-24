@@ -1,6 +1,6 @@
-import {HeaderComponent} from "../components/HeaderComponent";
+import HeaderComponent from "../components/HeaderComponent";
 
-export default function Products() {
+const  Products = () => {
     return (
         <>
             <HeaderComponent>
@@ -12,3 +12,5 @@ export default function Products() {
         </>
     )
 }
+
+export default Products

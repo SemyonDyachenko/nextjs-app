@@ -1,36 +1,35 @@
 import classes from '../../styles/product.card.module.css'
+import {Box} from "@chakra-ui/react";
 
 
-export function ProductCard({ id }) {
+const ProductCard = ({ id }) => {
     return (
         <>
             <div className={classes.productCard}>
-                <div>
+                <div>   
                     <div className={classes.productImage}>
-                        <img src="/img/img.png"/>
+                        <img src="/img/tree.png"/>
                     </div>
 
                     <div className={classes.productTitle}>
-
+                        <h3>Lemon Tree (3 y.o) </h3>
+                        <h5>Lorem ipsum lorem ipsum</h5>
                     </div>
 
                     <div className={classes.productPrice}>
-
+                        <span> 3200 RUB</span>
                     </div>
 
-                    <div className={classes.buttonSection}>
+                    <Box className={classes.buttonSection}>
+                            <button>MORE INFO</button>
 
-                        <div className={classes.viewButton}>
-
-                        </div>
-
-                        <div className={classes.cartButton}>
-
-                        </div>
-                    </div>
+                            <button>ADD TO CART</button>
+                    </Box>
                 </div>
             </div>
 
         </>
     )
 }
+
+export default ProductCard

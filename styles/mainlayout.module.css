@@ -1,14 +1,19 @@
 .main {
-    width:100%;
     margin:0 auto;
     float:left;
     box-sizing: border-box;
-    height: 600px;
-    display: flex;
-    justify-content: center;
+    height: auto;
 }
 
 .mainContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,auto);
+    gap: 10rem;
+    float:left;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     width:80%;
     float:left;
     height:600px;

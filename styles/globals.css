@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.width100 {
+  width:100%;
+}
+
+.height100 {
+  height:100%;
+}
+
+.vh100 {
+  height: 100vh;
+}
