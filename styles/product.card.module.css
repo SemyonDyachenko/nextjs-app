@@ -13,6 +13,7 @@
 .productTitle {
     width:100%;
     float:left;
+    height:80px;
 }
 
 .productTitle>h3 {
@@ -26,23 +27,41 @@
 }
 
 .productPrice {
+    width:100%;
+    float:left;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.productPrice>span>div {
+    display: block;
+    padding:5px 15px 5px 15px;
+    background: black;
+    border:1px solid black;
+    border-radius: 100px;
+    color:white;
+    font-size:14px;
+    font-weight: bold;
 }
 
 .buttonSection {
+    width:100%;
     display: flex;
     justify-content: space-between;
     gap:1rem;
 }
 
 .buttonSection>button {
-    width:100px;
-    height: 30px;
-    font-size: 11px;
+    width:100%;
+    height: 40px;
+    font-size: 14px;
     outline:none;
-    background-color: #000000;
-    border:none;
-    color:white;
+    background-color: #ffffff;
+    border:1px solid #9f9f9f;
+    color: #4b4b4b;
     font-weight: 600;
     border-radius: 100px;
     padding:5px;

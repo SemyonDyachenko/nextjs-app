@@ -1,6 +1,7 @@
 import classes from '../../styles/product.card.module.css'
 import {Box} from "@chakra-ui/react";
 
+import Link from "next/link";
 
 const ProductCard = ({ id }) => {
     return (
@@ -17,13 +18,14 @@ const ProductCard = ({ id }) => {
                     </div>
 
                     <div className={classes.productPrice}>
-                        <span> 3200 RUB</span>
+                        <h5>Price: </h5>
+                        <span><div>3200 RUB</div></span>
                     </div>
 
                     <Box className={classes.buttonSection}>
-                            <button>MORE INFO</button>
+                           <Link href={"/product/12"}><button>MORE INFO</button></Link>
 
-                            <button>ADD TO CART</button>
+
                     </Box>
                 </div>
             </div>

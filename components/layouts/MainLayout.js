@@ -1,5 +1,5 @@
-import ProductCard from "./Widgets/ProductCard"
-import classes from '../styles/mainlayout.module.css'
+import ProductCard from "../Widgets/ProductCard"
+import classes from '../../styles/mainlayout.module.css'
 
 import  { Box,Container } from '@chakra-ui/react'
 

@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import HeaderComponent from "../components/HeaderComponent"
-import MainLayout from "../components/MainLayout";
+import MainLayout from "../components/layouts/MainLayout";
 import {Container} from "@chakra-ui/react";
-import classes from "../styles/mainlayout.module.css";
+
 
 
 const Index = () => {
