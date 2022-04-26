@@ -10,10 +10,8 @@ export default function Post() {
 
     return (
     <>
-        <Box as="main">
             <HeaderComponent></HeaderComponent>
             <ProductView></ProductView>
-        </Box>
 
     </>
     )
